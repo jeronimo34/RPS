@@ -1,0 +1,25 @@
+{
+    "RPS2": {
+        "lambda": {
+            "yourhand": 1
+        },
+        "apigateway": {
+            "path": "/RSP",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {
+                "yourhand": 1
+            }
+        }
+    }
+}
